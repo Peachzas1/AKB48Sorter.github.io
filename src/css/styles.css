@@ -94,7 +94,7 @@ body {
 
 .starting.start.button {
   
-  grid-row: span 3;
+  grid-row: span 6;
   font-size: 20px;
   border-radius:10px;
   box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.35);
