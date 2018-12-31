@@ -110,37 +110,31 @@ body {
 
 .sorting.tie.button {
   font-size: 20px;
-  grid-row: span 1;
   border-radius:10px;
 }
 
 .sorting.undo.button {
   font-size: 20px;
-  grid-row: span 1;
   border-radius:10px;
 }
 
 .sorting.save.button {
   font-size: 20px;
-  grid-row: span 1;
   border-radius:10px;
 }
 
 .finished.save.button {
   font-size: 20px;
-  grid-row: span 1;
   border-radius:10px;
 }
 
 .finished.getimg.button {
   font-size: 20px;
-  grid-row: span 1;
   border-radius:10px;
 }
 
 .finished.list.button {
   font-size: 20px;
-  grid-row: span 1;
   border-radius:10px;
 }
 
