@@ -225,6 +225,7 @@ body {
   
   position: relative;
   top: 0px;
+  left: -170px;
 }
 
 .sorter > .right {
@@ -232,7 +233,7 @@ body {
   border: 1px solid #000000;
   position: relative;
   top: 0px;
-
+  right: -10px;
 }
 
 .options {
