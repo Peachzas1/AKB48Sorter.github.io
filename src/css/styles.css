@@ -333,10 +333,11 @@ label:hover {
 }
 
 .result > .left {
-  width: 35px;
-  padding: 1px 3px 1px 0.5em;
+  padding: 3px;
   grid-column: 1 / 2;
-  text-align: right;
+  text-align: center;
+  background-color: white;
+  color: black;
 }
 
 .result.image .left {
@@ -346,16 +347,19 @@ label:hover {
 .result.image > .left span {
   position: absolute;
   top: 50%;
-  right: 3px;
   margin-top: -0.375em;
+  text-align: center;
 }
 
 .result > .right {
   width: 160px;
-  padding: 1px 0em 1px 0em;
+  padding: 3px;
   grid-column: 2 / 3;
   border-left: 1px solid #000;
   text-align: center;
+  background-color: white;
+  color: black;
+
 }
 
 .info {

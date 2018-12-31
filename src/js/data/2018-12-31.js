@@ -159,7 +159,7 @@ dataSet[dataSetVersion].characterData = [
 	},
 	{
 		name: "Nagamoto Ayami",
-		img: "fbNzsYt.jpg",
+		img: "E3s1Se9.jpg",
 		opts: {
 			Team: ["teamK"]
 		}
