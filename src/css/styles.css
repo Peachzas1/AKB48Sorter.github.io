@@ -90,16 +90,14 @@ body {
 }
 
 .starting.start.button {
-  
-  grid-row: span 6;
+  grid-row: span 2;
   font-size: 20px;
   border-radius:10px;
   box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.35);
-
 }
 
 .starting.load.button {
-  grid-row: span 3;
+  grid-row: span 2;
   display: none;
   border-radius:10px;
   box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.35);
@@ -108,31 +106,37 @@ body {
 .sorting.tie.button {
   font-size: 20px;
   border-radius:10px;
+  grid-row: span 1;
 }
 
 .sorting.undo.button {
   font-size: 20px;
   border-radius:10px;
+  grid-row: span 1;
 }
 
 .sorting.save.button {
   font-size: 20px;
   border-radius:10px;
+  grid-row: span 1;
 }
 
 .finished.save.button {
   font-size: 20px;
   border-radius:10px;
+  grid-row: span 1;
 }
 
 .finished.getimg.button {
   font-size: 20px;
   border-radius:10px;
+  grid-row: span 1;
 }
 
 .finished.list.button {
   font-size: 20px;
   border-radius:10px;
+  grid-row: span 1;
 }
 
 .sorting.button, .finished.button {
@@ -141,7 +145,8 @@ body {
 }
 
 .loading.button {
-  grid-row: span 6;
+  grid-row: span 1;
+  border-radius:10px;
   display: none;
 }
 
@@ -183,8 +188,8 @@ body {
 }
 
 .sorter > .image {
-  width: 207px;
-  height: 250px;
+  width: 280px;
+  height: 350px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
@@ -202,7 +207,7 @@ body {
 }
 
 .sorter > .text {
-  width: 207px;
+  width: 280px;
   height: 60px;
   display: none;
 }
@@ -222,12 +227,13 @@ body {
   
   position: relative;
   top: 0px;
-  left: -90px;
+  left: -170px;
 }
 
 .sorter > .right {
   grid-column: 3 / 4;
   border: 1px solid #000000;
+  right: -100px;
   
 }
 
