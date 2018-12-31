@@ -85,10 +85,9 @@ body {
 .left.sort.image {
   border-radius:10px;
   box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.35);
-  margin-right:20%;
 }
 
-.responsive-img{
+.right.sort.image{
   border-radius:10px;
   box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.35);
 }
@@ -97,12 +96,16 @@ body {
   
   grid-row: span 3;
   font-size: 20px;
+  border-radius:10px;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.35);
 
 }
 
 .starting.load.button {
   grid-row: span 3;
   display: none;
+  border-radius:10px;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.35);
 }
 
 .sorting.tie.button {
@@ -189,8 +192,8 @@ body {
 }
 
 .sorter > .image {
-  width: 280px;
-  height: 350px;
+  width: 207px;
+  height: 250px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
@@ -208,7 +211,7 @@ body {
 }
 
 .sorter > .text {
-  width: 280px;
+  width: 207px;
   height: 60px;
   display: none;
 }
@@ -228,15 +231,13 @@ body {
   
   position: relative;
   top: 0px;
-  left: -170px;
+  left: -90px;
 }
 
 .sorter > .right {
   grid-column: 3 / 4;
   border: 1px solid #000000;
-  position: relative;
-  top: 0px;
-  right: -10px;
+  
 }
 
 .options {
